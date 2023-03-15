@@ -1,2 +1,2 @@
-# laurenaparedes.github.io
+# Lauren Paredes
 Personal Portfolio
