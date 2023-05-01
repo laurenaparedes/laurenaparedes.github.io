@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>My Social Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        h1 {
+            border-radius: 70%;
+            max-width: 50%;
+            text-align: center;
+            background-color: #db97d9;
+            margin: 0 auto;
+            /* center horizontally */
+        }
+
+        img {
+            max-width: 50%;
+            height: 550px;
+            margin: 20px 20px 20px 0;
+            float: left;
+            border-radius: 50%;
+        }
+
+        p {
+            margin: 20px 20px600px;
+            border-radius: 20%;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            align-items: center;
+        }
+
+        div {
+            background-color: #fac3f8;
+            border-radius: 20%;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/partials/navBar.html");
+        });
+    </script>
+    <div>
+
+        <h1>LinkedIn</h1>
+        <a href="https://www.linkedin.com/in/lauren-paredes-6a1a781b8/">LinkedIn</a>
+        <p>At this link, you'll find my LinkedIn profile, where I showcase my skills, experiences, and career
+            aspirations.
+            From my academic background in computer science to my extracurricular involvement in community outreach,
+            you'll
+            gain a comprehensive understanding of who I am as a person and a professional.</p>
+    </div>
+    <div>
+
+        <h1>Instagram</h1>
+        <a href="https://www.instagram.com/its_lauren._/">Instagram</a>
+        <p>At this link, you'll find my Instagram profile, where I share snapshots of my personal life, hobbies, and
+            interests. From my passion for music and love for my pets to my travel adventures and social engagements,
+            you'll
+            get to know me beyond my academic and professional pursuits.</p>
+    </div>
+    <div>
+
+        <h1>Github</h1>
+        <a href="https://github.com/laurenaparedes">Github</a>
+        <p>Check out my GitHub profile to see my latest projects and contributions. From web development to AI, I have a diverse range of interests and skills that I've put into practice through my projects.
+            Don't hesitate to reach out if you have any questions or would like to collaborate!</p>
+    </div>
+</body>
+
+</html>

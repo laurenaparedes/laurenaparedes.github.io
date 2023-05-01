@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        h2 {
+            background-color: #db97d9;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+       
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+       
+
+        div {
+
+            background-color: #fac3f8;
+            border-radius: 20%;
+        }
+        img{
+            max-width: 100%;
+        }
+
+
+        p {
+            margin: 20px 20px 20px;
+            display: inline-block;
+            max-width: 80%;
+            /* adjust to your preference */
+            line-height: 1.2;
+            /* adjust to your preference */
+            vertical-align: middle;
+            background-color: #fac3f8;
+            text-align: center;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        h1{
+            border-radius: 70%;
+            max-width: 50%;
+            text-align: center;
+            background-color: #db97d9;
+            margin:  0 auto; /* center horizontally */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/partials/navBar.html");
+        });
+    </script>
+    <img src="/photos/Screenshot 2023-03-13 at 11.39.00 PM.png">
+    <img src="/photos/Screenshot 2023-03-13 at 11.39.14 PM.png">
+
+</body>
+
+</html>

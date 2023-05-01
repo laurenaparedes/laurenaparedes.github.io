@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>My Interests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        h2 {
+            border-radius: 70%;
+            max-width: 50%;
+            text-align: center;
+            background-color: #db97d9;
+            margin:  0 auto; /* center horizontally */
+        }
+
+        img {
+            max-width: 50%;
+            height: 550px;
+            margin:  20px 20px 20px 0;
+            float: left;
+            border-radius: 50%;
+        }
+
+        p {
+            margin: 20px 20px600px;
+            border-radius: 20%;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        div{
+            background-color: #fac3f8;
+            border-radius: 20%;
+            padding: 20px;
+        }
+        .nav-placeholder{
+            background-color: #db97d9;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/partials/navBar.html");
+        });
+    </script>
+    <h2>New Venture Challenge</h2>
+    <div style="display: flex;">
+        <img src="/photos/RAI.jpeg" alt="ResilienceAI at our Project Expo" style="width: 50%; margin-right: 20px;">
+        <div>
+            <p>I participated in the New Venture Challenge, a startup competition that fosters innovation and
+                entrepreneurship. As a member of a dynamic team, I worked on developing and refining our startup's
+                business plan and pitch, gaining valuable experience in market research, financial modeling, and
+                pitching to investors. It was an exhilarating experience, and I'm proud of the work we accomplished
+                together.</p>
+        </div>
+    </div>
+    <h2>Speaking at Schools</h2>
+    <div style="display: flex;">
+        <img src="/photos/PRORA_LOGO.gif">
+        <div>
+            
+            <p>As an advocate for education, I've devoted my time to tutoring kids in various subjects and speaking at
+                schools about the importance of academic pursuits. Through these experiences, I've not only helped
+                students
+                improve their academic performance but also inspired them to pursue their passions. It's been a
+                rewarding
+                journey, and I'm grateful for the opportunity to make a positive impact in their lives.</p>
+                <a
+                    href="https://pra-miners.org/2023/03/29/west-point-cadet-adam-wilk-19-ready-for-future-with-lauren-paredes-19/">Speaking
+                    at Prospect Ridge Academy</a>
+            </div>
+    </div>
+    <h2>RCIA</h2>
+    <div>
+        
+        <img src="/photos/RCIA.jpg" alt="RCIA">
+        <div>
+
+            <p>I'm thrilled to announce that I've completed the Rite of Christian Initiation for Adults, a
+                transformative
+                journey that has strengthened my faith and my connection to the Catholic Church. As an active member of
+                the
+                church community, I've volunteered for various outreach programs, attended Mass regularly, and built
+                meaningful
+                relationships with other members of the parish.</p>
+        </div>
+    </div>
+</body>
+
+</html>
